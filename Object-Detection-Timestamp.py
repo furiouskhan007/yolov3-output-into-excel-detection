@@ -11,11 +11,11 @@ import os
 
 ap = argparse.ArgumentParser()
 ap.add_argument('-c', '--config', 
-                help = 'path to yolo config file', default=r'C:\Users\Pc\Downloads\yolo-excel-put-detection-in-csv-main\yolov3-tiny.cfg')
+                help = 'path to yolo config file', default=r'yolov3-tiny.cfg')
 ap.add_argument('-w', '--weights', 
-                help = 'path to yolo pre-trained weights', default=r'C:\Users\Pc\Downloads\yolo-excel-put-detection-in-csv-main\yolov3-tiny.weights')
+                help = 'path to yolo pre-trained weights', default=r'yolov3-tiny.weights')
 ap.add_argument('-cl', '--classes', 
-                help = 'path to text file containing class names',default=r'C:\Users\Pc\Downloads\yolo-excel-put-detection-in-csv-main\coco.names')
+                help = 'path to text file containing class names',default=r'coco.names')
 args = ap.parse_args()
 # Get names of output layers, output for YOLOv3 is ['yolo_16', 'yolo_23']
 def getOutputsNames(net):
@@ -52,7 +52,7 @@ COLORS = np.random.uniform(0, 255, size=(len(classes), 3))
 net = cv2.dnn.readNet(args.weights,args.config)
 
 # Define video capture for default cam
-cap = cv2.VideoCapture(r'C:\Users\Pc\Downloads\yolo-excel-put-detection-in-csv-main\Car_detection.mp4')
+cap = cv2.VideoCapture(r'Car_detection.mp4')
 
 book = Workbook()
 sheet = book.active
