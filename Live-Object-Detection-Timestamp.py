@@ -6,9 +6,9 @@ import datetime
 from openpyxl import Workbook
 
 ap = argparse.ArgumentParser()
-ap.add_argument('-c', '--config', help='path to yolo config file', default=r'C:\Users\Pc\Downloads\yolo-excel-put-detection-in-csv-main\yolov3-tiny.cfg')
-ap.add_argument('-w', '--weights', help='path to yolo pre-trained weights', default=r'C:\Users\Pc\Downloads\yolo-excel-put-detection-in-csv-main\yolov3-tiny.weights')
-ap.add_argument('-cl', '--classes', help='path to text file containing class names', default=r'C:\Users\Pc\Downloads\yolo-excel-put-detection-in-csv-main\coco.names')
+ap.add_argument('-c', '--config', help='path to yolo config file', default=r'yolov3-tiny.cfg')
+ap.add_argument('-w', '--weights', help='path to yolo pre-trained weights', default=r'yolov3-tiny.weights')
+ap.add_argument('-cl', '--classes', help='path to text file containing class names', default=r'coco.names')
 args = ap.parse_args()
 
 def getOutputsNames(net):
