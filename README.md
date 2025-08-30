@@ -12,5 +12,5 @@ The following command can be used to run the web app.
 ```python Object-Detection-Timestamp.py```<br>
 ```Live-Object-Detection-Timestamp.py```<br>
 
-## Screenshots of Web App
-
+## Screenshots of App
+![alt text](https://github.com/furiouskhan007/yolov3-output-into-excel-detection/blob/main/output.jpg?raw=true)
