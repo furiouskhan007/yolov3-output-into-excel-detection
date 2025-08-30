@@ -1,4 +1,4 @@
-#cYOLOv3-Tiny Object Detection → Timestamped Excel
+# YOLOv3-Tiny Object Detection → Timestamped Excel
 
 A lightweight object detection pipeline leveraging YOLOv3-Tiny to detect objects in video or image streams, capture the detection timestamps, and export the results into a structured Excel (.xlsx) file for analysis, reporting, or further processing.
 
