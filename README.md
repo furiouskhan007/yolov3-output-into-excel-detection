@@ -29,12 +29,12 @@ Versatile input support—process live video, recorded footage, or individual im
 - Clone this repository:
 ```git clone https://github.com/furiouskhan007/yolov3-tiny-Object-detection-Timestamp-Excel.git```<br>
 ```cd yolov3-tiny-Object-detection-Timestamp-Excel```<br>
-- Set up a virtual environment (optional but recommended):
+- Set up a virtual environment (optional but recommended):<br>
 ```python -m venv venv```<br>
 ```source venv/bin/activate  # or `venv\Scripts\activate` on Windows```<br>
-- Install required Python packages:
+- Install required Python packages:<br>
 ```pip install opencv-python numpy pandas openpyxl```<br>
-- Download or place the YOLO config, weights, and names file into a models/ directory (or adjust as needed in your code).
+- Download or place the YOLO config, weights, and names file into a models/ directory (or adjust as needed in your code).<br>
 
 
 ## Screenshots of App
